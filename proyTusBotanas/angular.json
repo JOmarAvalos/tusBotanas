@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "proyTusBotanas"
+    }
+  },
+  "defaultProject": "proyTusBotanas",
+  "cli": {
+    "analytics": "f2828d23-923c-45d1-8df3-fea83d96909d"
+  }
 }
