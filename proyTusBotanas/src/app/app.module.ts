@@ -10,6 +10,7 @@ import { MensajeComponent } from './components/mensaje/mensaje.component';
 import { SocialComponent } from './components/shared/social/social.component';
 import { ContactoComponent } from './components/shared/contacto/contacto.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
+import { FinalidadComponent } from './components/finalidad/finalidad.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './components/shared/footer/footer.component';
     MensajeComponent,
     SocialComponent,
     ContactoComponent,
-    FooterComponent
+    FooterComponent,
+    FinalidadComponent
   ],
   imports: [
     BrowserModule,
