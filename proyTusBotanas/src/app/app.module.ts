@@ -1,7 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+// Rutas
 import { AppRoutingModule } from './app-routing.module';
+
+// Componentes
 import { AppComponent } from './app.component';
 import { RedesComponent } from './components/shared/redes/redes.component';
 import { HeaderComponent } from './components/shared/header/header.component';
@@ -11,6 +14,9 @@ import { SocialComponent } from './components/shared/social/social.component';
 import { ContactoComponent } from './components/shared/contacto/contacto.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { FinalidadComponent } from './components/finalidad/finalidad.component';
+
+// Servicios
+
 
 @NgModule({
   declarations: [
