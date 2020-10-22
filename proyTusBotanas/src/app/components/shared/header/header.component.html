@@ -1,7 +1,7 @@
 <nav class="background-botanas">
     <div class="line">
         <div class="s-12 l-2">
-            <a href="index.html" class="logo"><img src="./assets/libs/img/logo.png" alt=""></a>
+            <a [routerLink]="['home']" class="logo"><img src="./assets/libs/img/logo.png" alt=""></a>
         </div>
         <div class="top-nav s-12 l-10">
             <p class="nav-text"></p>
@@ -12,10 +12,10 @@
                 <li>
                     <a [routerLink]="['finalidad']">Finalidad</a>
                 </li>
-                <li><a href="mision.html">Misión</a></li>
-                <li><a href="vision.html">Visión</a></li>
-                <li><a href="Valores.html">Valores</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+                <li><a [routerLink]="['mision']">Misión</a></li>
+                <li><a [routerLink]="['vision']">Visión</a></li>
+                <li><a [routerLink]="['valores']">Valores</a></li>
+                <li><a [routerLink]="['contacto']">Contacto</a></li>
             </ul>
         </div>
     </div>

@@ -14,6 +14,9 @@ import { SocialComponent } from './components/shared/social/social.component';
 import { ContactoComponent } from './components/shared/contacto/contacto.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { FinalidadComponent } from './components/finalidad/finalidad.component';
+import { MisionComponent } from './components/mision/mision.component';
+import { VisionComponent } from './components/vision/vision.component';
+import { ValoresComponent } from './components/valores/valores.component';
 
 // Servicios
 
@@ -28,7 +31,10 @@ import { FinalidadComponent } from './components/finalidad/finalidad.component';
     SocialComponent,
     ContactoComponent,
     FooterComponent,
-    FinalidadComponent
+    FinalidadComponent,
+    MisionComponent,
+    VisionComponent,
+    ValoresComponent
   ],
   imports: [
     BrowserModule,
