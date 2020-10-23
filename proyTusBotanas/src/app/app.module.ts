@@ -17,6 +17,7 @@ import { FinalidadComponent } from './components/finalidad/finalidad.component';
 import { MisionComponent } from './components/mision/mision.component';
 import { VisionComponent } from './components/vision/vision.component';
 import { ValoresComponent } from './components/valores/valores.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 // Servicios
 
@@ -34,7 +35,8 @@ import { ValoresComponent } from './components/valores/valores.component';
     FinalidadComponent,
     MisionComponent,
     VisionComponent,
-    ValoresComponent
+    ValoresComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

@@ -5,7 +5,7 @@ import { FinalidadComponent } from './components/finalidad/finalidad.component';
 import { MisionComponent } from './components/mision/mision.component';
 import { VisionComponent } from './components/vision/vision.component';
 import { ValoresComponent } from './components/valores/valores.component';
-import { ContactoComponent } from './components/shared/contacto/contacto.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 
 const routes: Routes = [
@@ -14,7 +14,7 @@ const routes: Routes = [
   { path: 'mision', component: MisionComponent },
   { path: 'vision', component:  VisionComponent},
   { path: 'valores', component: ValoresComponent },
-  { path: 'contacto', component: ContactoComponent },
+  { path: 'contact', component: ContactComponent },
   { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];
 
