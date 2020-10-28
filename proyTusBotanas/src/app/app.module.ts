@@ -19,6 +19,7 @@ import { ValoresComponent } from './components/valores/valores.component';
 import { ContactComponent } from './components/contact/contact.component';
 
 // Servicios
+import { BotanasService } from './services/botanas.service';
 
 
 @NgModule({
@@ -40,7 +41,9 @@ import { ContactComponent } from './components/contact/contact.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    BotanasService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

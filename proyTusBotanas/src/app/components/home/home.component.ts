@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { BotanasService, Botana } from '../../services/botanas.service';
+
 
 @Component({
   selector: 'app-home',
@@ -6,11 +8,18 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
+
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  botanas: Botana[] = [];
+
+  constructor( private botanasServices: BotanasService) {
+    console.log('constructor');
+  }
 
   ngOnInit(): void {
+    this.botanas = this.botanasServices.getBotanas();
+    console.log(this.botanas);
   }
 
 }
