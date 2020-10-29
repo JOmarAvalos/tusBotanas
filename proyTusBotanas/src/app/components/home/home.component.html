@@ -1,15 +1,13 @@
 <section class="section background-fondo">
     <div class="line">
         <div class="margin">
-
-            <div class="s-12 m-12 l-4 margin-m-bottom">
-                <a class="text-more-info text-primary-hover" href="cacahuates.html">
-                    <img class="margin-bottom" src="./assets/libs/img/tus_cacahuates_imagen.jpg" alt="cacahuates">
+            <div class="s-12 m-12 l-4 margin-m-bottom" *ngFor="let botana of botanas">
+                <a class="text-more-info text-primary-hover" [routerLink]="['/botana', botana.id]">
+                    <img class="margin-bottom" [src]="botana.img" [alt]="botana.titulo">
                 </a>
-                <h2 class="text-thin">Tus Cacahuates</h2>
-                <p>La mejor variedad de cacahuates.</p>
+                <h2 class="text-thin">{{ botana.titulo }}</h2>
+                <p>{{ botana.descripcion }}</p>
             </div>
-
         </div>
     </div>
 </section>

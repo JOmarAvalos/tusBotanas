@@ -6,6 +6,8 @@ import { MisionComponent } from './components/mision/mision.component';
 import { VisionComponent } from './components/vision/vision.component';
 import { ValoresComponent } from './components/valores/valores.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { BotanaComponent } from './components/botana/botana.component';
+
 
 
 const routes: Routes = [
@@ -15,6 +17,7 @@ const routes: Routes = [
   { path: 'vision', component:  VisionComponent},
   { path: 'valores', component: ValoresComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'botana/:id', component: BotanaComponent },
   { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];
 

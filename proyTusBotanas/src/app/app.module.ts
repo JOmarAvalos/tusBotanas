@@ -20,6 +20,7 @@ import { ContactComponent } from './components/contact/contact.component';
 
 // Servicios
 import { BotanasService } from './services/botanas.service';
+import { BotanaComponent } from './components/botana/botana.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { BotanasService } from './services/botanas.service';
     MisionComponent,
     VisionComponent,
     ValoresComponent,
-    ContactComponent
+    ContactComponent,
+    BotanaComponent
   ],
   imports: [
     BrowserModule,
