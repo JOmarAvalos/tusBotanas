@@ -19,7 +19,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     this.botanas = this.botanasServices.getBotanas();
-    console.log(this.botanas);
+    // console.log(this.botanas);
   }
 
 }

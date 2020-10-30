@@ -84,7 +84,13 @@ private botanas: Botana[] =
   }
 
   getBotana( idx: number ): Botana {
-    return this.botanas[idx];
+
+    for ( const botana of this.botanas ){
+      const id = botana.id;
+      if ( id == idx ) {
+        return botana;
+      }
+    }
   }
 
 }
