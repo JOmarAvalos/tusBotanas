@@ -1,1 +1,17 @@
-<p>botana works!</p>
+<article>
+    <header class="section background-primary text-center">
+        <h1 class="text-white margin-bottom-0 text-size-50 text-thin text-line-height-1">{{botana.titulo}}</h1>
+    </header>
+
+    <div class="section background-fondo">
+        <div class="line">
+            <div class="margin">
+                <div class="s-12 m-6 l-3" *ngFor="let imgBotana of botana.portafolio">
+                    <div class="image-with-hover-overlay image-hover-zoom margin-bottom">
+                        <img [src]="imgBotana.imgPortafolio" [alt]="imgBotana.txtPortafolio" [title]="imgBotana.txtPortafolio">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
