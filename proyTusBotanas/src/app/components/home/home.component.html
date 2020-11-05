@@ -6,7 +6,7 @@
                     <img class="margin-bottom" [src]="botana.img" [alt]="botana.titulo">
                 </a>
                 <h2 class="text-thin">{{ botana.titulo }}</h2>
-                <p>{{ botana.descripcion }}</p>
+                <p>{{ botana.descripcion | slice:0:30 }}</p>
             </div>
         </div>
     </div>
