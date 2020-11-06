@@ -1,13 +1,20 @@
 <section class="section background-fondo">
     <div class="line">
         <div class="margin">
-            <div class="s-12 m-12 l-4 margin-m-bottom" *ngFor="let botana of botanas">
+
+
+            <div class="s-12 m-6 l-4" *ngFor="let botana of botanas">
                 <a class="text-more-info text-primary-hover" [routerLink]="['/botana', botana.id]">
                     <img class="margin-bottom" [src]="botana.img" [alt]="botana.titulo">
                 </a>
                 <h2 class="text-thin">{{ botana.titulo }}</h2>
-                <p>{{ botana.descripcion | slice:0:40 }}</p>
+                <div class="descripcionAltoFijo">
+                    <p>{{ botana.descripcion }}</p>
+                </div>
+
             </div>
+
+
         </div>
     </div>
 </section>
