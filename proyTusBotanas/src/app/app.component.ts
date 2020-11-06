@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'proyTusBotanas';
+
+  // Funcion para mandar el scroll al inicio
+  onActivate(event: any): void {
+    window.scroll(0, 0);
+  }
+
 }
+
+
