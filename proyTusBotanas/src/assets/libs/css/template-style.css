@@ -821,7 +821,7 @@ a.background-primary:link,
 .text-primary *,
 .primary-color-primary .text-primary,
 .primary-color-primary .text-primary * {
-  color: #242e65 !important;
+  color: #626669 !important;
 }
 
 .text-dark,
@@ -873,12 +873,12 @@ a.background-primary:link,
 
 .background-primary,
 .primary-color-primary .background-primary {
-  background-color: #242e65 !important;
+  background-color: #024A86 !important;
 }
 
 .background-dark,
 .primary-color-dark .background-primary {
-  background-color: #242e65 !important;
+  background-color: #024A86 !important;
 }
 
 /* Background Opacity */
