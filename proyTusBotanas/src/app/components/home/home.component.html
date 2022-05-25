@@ -1,30 +1,30 @@
 <section class="section background-fondo">
-    <div class="line">
-        <div class="margin">
-
-
-            <div class="s-12 m-6 l-4" *ngFor="let botana of botanas">
-                <a class="text-more-info text-primary-hover" [routerLink]="['/botana', botana.id]">
-                    <img class="margin-bottom" [src]="botana.img" [alt]="botana.titulo">
-                </a>
-                <h2 class="text-thin">{{ botana.titulo }}</h2>
-                <div class="descripcionAltoFijo">
-                    <p>{{ botana.descripcion }}</p>
-                </div>
-
-            </div>
-
-
+  <div class="line">
+    <div class="margin">
+      <div class="s-12 m-6 l-4" *ngFor="let botana of botanas">
+        <a
+          class="text-more-info text-primary-hover"
+          [routerLink]="['/botana', botana.id]"
+        >
+          <img class="margin-bottom" [src]="botana.img" [alt]="botana.titulo" />
+        </a>
+        <h2 class="text-thin">{{ botana.titulo }}</h2>
+        <div class="descripcionAltoFijo">
+          <p>{{ botana.descripcion }}</p>
         </div>
+      </div>
     </div>
+  </div>
 </section>
 
 <section class="section background-primary text-center">
-    <div class="line">
-        <div class="s-12 m-10 l-8 center">
-            <h2 class="headline text-thin text-s-size-30">Estamos preparando las mejores botanas</h2>
-        </div>
+  <div class="line">
+    <div class="s-12 m-10 l-8 center">
+      <h2 class="headline text-thin text-s-size-30">
+        Tenemos los mejores muebles para tu oficina
+      </h2>
     </div>
+  </div>
 </section>
 
-<hr class="break margin-top-bottom-0">
+<hr class="break margin-top-bottom-0" />
