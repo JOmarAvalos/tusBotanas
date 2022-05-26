@@ -18,7 +18,7 @@ const routes: Routes = [
   { path: 'valores', component: ValoresComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'botana/:id', component: BotanaComponent },
-  { path: '**', pathMatch: 'full', redirectTo: 'home' }
+  { path: '**', pathMatch: 'full', redirectTo: 'finalidad' }
 ];
 
 @NgModule({

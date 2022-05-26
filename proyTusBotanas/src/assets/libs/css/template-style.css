@@ -474,7 +474,7 @@ video {
 
 .top-nav li a,
 .background-white .top-nav li a {
-  color: #b4adaf;
+  color: #181717;
   font-size: 0.85rem;
   padding: 0.7em 1.25em;
 }
@@ -864,7 +864,7 @@ a.background-primary:link,
 }
 
 .background-botanas {
-  background-color: #545559 !important;
+  background-color: #e0e0e0 !important;
 }
 
 .background-fondo {

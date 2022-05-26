@@ -7,22 +7,50 @@ export class BotanasService {
   private botanas: Botana[] = [
     {
       id: 1,
-      titulo: 'Oficina 1',
-      descripcion: 'Descripción de oficina 1.',
+      titulo: 'Aulas',
+      descripcion: 'Descripción pequeña de Aulas.',
       img: 'assets/libs/img/img-01.jpg',
       //choro: 'descripción a detalle',
       portafolio: [
         {
           imgPortafolio: 'assets/libs/img/img-03.jpg',
           txtPortafolio:
-            'descripción del producto y lo que mas quieras agregar la imagen puede ser mas grande centrada , esa ya tu dcides',
+            'descripción larga del aula dimenciones , que es lo que tiene',
         },
       ],
     },
     {
       id: 2,
-      titulo: 'Oficina 2',
+      titulo: 'Oficinas',
       descripcion: 'Descripción de oficina 2.',
+      img: 'assets/libs/img/img-02.jpg',
+      //choro: 'descripción a detalle',
+      portafolio: [
+        {
+          imgPortafolio: 'assets/libs/img/img-03.jpg',
+          txtPortafolio:
+            'descripcion del producto y lo que mas quieras agregar la imagen puede ser mas grande centrada , esa ya tu dcides',
+        },
+      ],
+    },
+    {
+      id: 3,
+      titulo: 'Producto adional',
+      descripcion: 'Descripción de oficina 2.',
+      img: 'assets/libs/img/img-02.jpg',
+      //choro: 'descripción a detalle',
+      portafolio: [
+        {
+          imgPortafolio: 'assets/libs/img/img-03.jpg',
+          txtPortafolio:
+            'descripcion del producto y lo que mas quieras agregar la imagen puede ser mas grande centrada , esa ya tu dcides',
+        },
+      ],
+    },
+    {
+      id: 4,
+      titulo: 'Servicios',
+      descripcion: 'Servicios.',
       img: 'assets/libs/img/img-02.jpg',
       //choro: 'descripción a detalle',
       portafolio: [
