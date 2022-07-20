@@ -2,15 +2,17 @@
   <div class="line">
     <div class="margin">
       <div class="s-12 m-6 l-4" *ngFor="let botana of botanas">
-        <a
+        <!--<a
           class="text-more-info text-primary-hover"
           [routerLink]="['/botana', botana.id]"
         >
+      Se quito el router link-->
+        <a class="text-more-info text-primary-hover">
           <img class="margin-bottom" [src]="botana.img" [alt]="botana.titulo" />
         </a>
         <h2 class="text-thin">{{ botana.titulo }}</h2>
         <div class="descripcionAltoFijo">
-          <p>{{ botana.descripcion }}</p>
+          <!--<p>{{ botana.descripcion }}</p>-->
         </div>
       </div>
     </div>

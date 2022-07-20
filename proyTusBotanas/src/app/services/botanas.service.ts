@@ -9,7 +9,7 @@ export class BotanasService {
       id: 1,
       titulo: 'Aulas',
       descripcion: 'Descripción pequeña de Aulas.',
-      img: 'assets/libs/img/img-01.jpg',
+      img: 'assets/libs/img/aulas.jpg',
       //choro: 'descripción a detalle',
       portafolio: [
         {
@@ -19,11 +19,40 @@ export class BotanasService {
         },
       ],
     },
+
+    {
+      id: 4,
+      titulo: 'Dormitorio',
+      descripcion: 'Servicios.',
+      img: 'assets/libs/img/Dormitorio.jpg',
+      //choro: 'descripción a detalle',
+      portafolio: [
+        {
+          imgPortafolio: 'assets/libs/img/img-03.jpg',
+          txtPortafolio:
+            'descripcion del producto y lo que mas quieras agregar la imagen puede ser mas grande centrada , esa ya tu dcides',
+        },
+      ],
+    },
+    {
+      id: 5,
+      titulo: 'Oficina comercial',
+      descripcion: 'Servicios.',
+      img: 'assets/libs/img/oficina_comercial.jpeg',
+      //choro: 'descripción a detalle',
+      portafolio: [
+        {
+          imgPortafolio: 'assets/libs/img/img-03.jpg',
+          txtPortafolio:
+            'descripcion del producto y lo que mas quieras agregar la imagen puede ser mas grande centrada , esa ya tu dcides',
+        },
+      ],
+    },
     {
       id: 2,
-      titulo: 'Oficinas',
+      titulo: 'Baños',
       descripcion: 'Descripción de oficina 2.',
-      img: 'assets/libs/img/img-02.jpg',
+      img: 'assets/libs/img/banos.jpg',
       //choro: 'descripción a detalle',
       portafolio: [
         {
@@ -35,23 +64,9 @@ export class BotanasService {
     },
     {
       id: 3,
-      titulo: 'Producto adional',
+      titulo: 'Caseta de vigilancia',
       descripcion: 'Descripción de oficina 2.',
-      img: 'assets/libs/img/img-02.jpg',
-      //choro: 'descripción a detalle',
-      portafolio: [
-        {
-          imgPortafolio: 'assets/libs/img/img-03.jpg',
-          txtPortafolio:
-            'descripcion del producto y lo que mas quieras agregar la imagen puede ser mas grande centrada , esa ya tu dcides',
-        },
-      ],
-    },
-    {
-      id: 4,
-      titulo: 'Servicios',
-      descripcion: 'Servicios.',
-      img: 'assets/libs/img/img-02.jpg',
+      img: 'assets/libs/img/caseta_de_vigilancia.jpg',
       //choro: 'descripción a detalle',
       portafolio: [
         {
